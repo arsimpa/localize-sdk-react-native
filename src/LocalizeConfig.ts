@@ -3,7 +3,7 @@ import type { LocalizeStorage } from './adapters/storage/types';
 import { isDev } from './internal/logger';
 
 export const SDK_VERSION = '0.1.0';
-export const DEFAULT_BASE_URL = 'https://localize-api.adres.ae';
+export const DEFAULT_BASE_URL = 'https://api.glotra.app';
 export const DEFAULT_PLATFORM = 'react-native';
 
 export type LocalizeSource = 'api' | 'cache' | 'bundle' | 'none';
@@ -25,7 +25,7 @@ export interface LocalizeConfigInput {
   apiKey: string;
   /** Default 'react-native'. Shares keys with web / other / flutter on the backend. */
   platform?: string;
-  /** Default 'https://localize-api.adres.ae'. Trailing slash is removed. */
+  /** Default 'https://api.glotra.app'. Trailing slash is removed. */
   baseUrl?: string;
   fallbackLocale?: string;
   /** Timeout for background / refresh fetches. Default 10. */

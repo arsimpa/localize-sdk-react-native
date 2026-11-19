@@ -14,7 +14,7 @@ describe('HttpLocalizeFetcher', () => {
     const result = await fetcherFor(server).fetch(1000);
     expect(result.ok).toBe(true);
     const req = server.requests[0]!;
-    expect(req.url).toBe('https://localize-api.adres.ae/sdk/export?platform=react-native');
+    expect(req.url).toBe('https://api.glotra.app/sdk/export?platform=react-native');
     expect(req.headers).toMatchObject({
       'X-API-Key': 'pk_test',
       Accept: 'application/json',
