@@ -1,6 +1,6 @@
 import type { LocalizeStore } from './domain/LocalizeStore';
 import type { LocalizeStorage } from './adapters/storage/types';
-export declare const SDK_VERSION = "0.1.0";
+export declare const SDK_VERSION = "0.1.1";
 export declare const DEFAULT_BASE_URL = "https://api.glotra.app";
 export declare const DEFAULT_PLATFORM = "react-native";
 export type LocalizeSource = 'api' | 'cache' | 'bundle' | 'none';

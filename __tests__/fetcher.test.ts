@@ -18,7 +18,7 @@ describe('HttpLocalizeFetcher', () => {
     expect(req.headers).toMatchObject({
       'X-API-Key': 'pk_test',
       Accept: 'application/json',
-      'User-Agent': 'localize-sdk-react-native/0.1.0',
+      'User-Agent': 'localize-sdk-react-native/0.1.1',
     });
   });
 

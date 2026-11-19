@@ -1,14 +1,14 @@
-# Localiq React Native SDK
+# Glotra React Native SDK
 
-[![Version](https://img.shields.io/github/v/tag/arsalankhan-glitch/localize-sdk-react-native?sort=semver&label=version)](https://github.com/arsalankhan-glitch/localize-sdk-react-native/tags) [![License](https://img.shields.io/github/license/arsalankhan-glitch/localize-sdk-react-native)](LICENSE) ![React Native 0.71+](https://img.shields.io/badge/React%20Native-0.71%2B-61DAFB.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178C6.svg) ![Expo compatible](https://img.shields.io/badge/Expo-compatible-000020.svg)
+[![Version](https://img.shields.io/github/v/tag/arsimpa/localize-sdk-react-native?sort=semver&label=version)](https://github.com/arsimpa/localize-sdk-react-native/tags) [![License](https://img.shields.io/github/license/arsimpa/localize-sdk-react-native)](LICENSE) ![React Native 0.71+](https://img.shields.io/badge/React%20Native-0.71%2B-61DAFB.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178C6.svg) ![Expo compatible](https://img.shields.io/badge/Expo-compatible-000020.svg)
 
 ## 👋 Introduction
 
-Localiq lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
+Glotra lets your team manage your app's text and translations in one place and update them without shipping a new release. The SDK downloads the latest translations at runtime, caches them on the device, and falls back to the strings bundled in your app when it's offline.
 
 This is the TypeScript SDK for React Native, with React hooks that update your UI as soon as new translations arrive. It has no native code, so it works in Expo Go, bare React Native, and both the New and Old Architecture.
 
-Also available for [iOS](https://github.com/arsalankhan-glitch/localize-sdk-ios) · [Android](https://github.com/arsalankhan-glitch/localize-sdk-android) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter).
+Also available for [iOS](https://github.com/arsimpa/localize-sdk-ios) · [Android](https://github.com/arsimpa/localize-sdk-android) · [Flutter](https://github.com/arsimpa/localize-sdk-flutter).
 
 To get started, sign up [here](https://glotra.app/signup).
 
@@ -22,13 +22,13 @@ To get started, sign up [here](https://glotra.app/signup).
 Install from GitHub, pinned to a tag. This works with npm, Yarn and pnpm:
 
 ```bash
-npm install github:arsalankhan-glitch/localize-sdk-react-native#0.1.0
+npm install github:arsimpa/localize-sdk-react-native#0.1.1
 ```
 
 This adds the following to your `package.json`:
 
 ```json
-"@adres/react-native-localize-sdk": "github:arsalankhan-glitch/localize-sdk-react-native#0.1.0"
+"@adres/react-native-localize-sdk": "github:arsimpa/localize-sdk-react-native#0.1.1"
 ```
 
 Optional peers (install any you want):
