@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- The default API host is now `https://api.glotra.app`.
+- Package links point at the `arsimpa` GitHub repositories.
+
 ## 0.1.0
 
 First release.
