@@ -10,7 +10,7 @@ This is the TypeScript SDK for React Native, with React hooks that update your U
 
 Also available for [iOS](https://github.com/arsalankhan-glitch/localize-sdk-ios) · [Android](https://github.com/arsalankhan-glitch/localize-sdk-android) · [Flutter](https://github.com/arsalankhan-glitch/localize-sdk-flutter).
 
-To get started, sign up [here](https://localiq.yaxbi.com/signup).
+To get started, sign up [here](https://glotra.app/signup).
 
 ## 📋 Requirements
 
@@ -118,7 +118,7 @@ Lookup order: current locale → fallback locale → `bundleFallback` (locale, t
 |--------|---------|-------------|
 | `apiKey` | — | Project API key (required) |
 | `platform` | `'react-native'` | Shares keys with `web` / `other` / `flutter` |
-| `baseUrl` | `https://localize-api.adres.ae` | API host |
+| `baseUrl` | `https://api.glotra.app` | API host |
 | `fallbackLocale` | — | Used when a key is missing in the current locale |
 | `locale` | `'en'` | Initial locale |
 | `timeoutSeconds` | `10` | Background / refresh timeout |
